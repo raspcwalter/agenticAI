@@ -1,0 +1,4 @@
+grpcio==1.67.1
+grpcio-status==1.67.1
+tokenizers>=0.22,<0.24
+transformers==4.57.3

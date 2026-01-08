@@ -13,11 +13,12 @@ Sistema **multiagentes** que gera banners corporativos com um fluxo **sequencial
 ```text
 crews/simple_image_creator/
 ├─ crew_create_image_final_fixed.py     # script principal com logs detalhados
-├─ saidas/                              # arquivos de saída (.png, .log)
 ├─ doc/                                 # imagens de documentação/diagrama
 │  ├─ crew_PE_IG.png
-│  ├─ banner_20251231_152313_991837.png
 │  └─ (outros visuais de apoio)
+├─ saidas/                              # arquivos de saída (imagens geradas e logs)
+│  ├─ banner_20251231_152313_991837.png
+│  └─ ...
 └─ .env                                 # configuração local (variáveis de ambiente)
 ```
 
@@ -35,7 +36,7 @@ crews/simple_image_creator/
 
 **Exemplo de saída (banner gerado):**
 
-![banner_20251231_152313_991837.png](https://github.com/raspcwalter/agenticAI/blob/main/crews/simple_image_creator/doc/banner_20251231_152313_991837.png)
+![banner_20251231_152313_991837.png](https://github.com/raspcwalter/agenticAI/blob/main/crews/simple_image_creator/saidas/banner_20251231_152313_991837.png)
 
 ---
 

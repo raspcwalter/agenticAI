@@ -55,7 +55,7 @@ crews/simple_image_creator/
 Referências:
 - [Google Gen AI SDK](https://googleapis.github.io/python-genai/)
 - [Generating Content (v1beta)](https://ai.google.dev/api/generate-content)
-- [Image generation com Gemini](https://ai.google.dev/gemini-api/docs/image-generation)
+- [Gemini Image generation guide](https://ai.google.dev/gemini-api/docs/image-generation)
 
 ---
 
@@ -140,17 +140,8 @@ PY
 - **Disponibilidade/região:** alguns modelos/recursos podem ter **restrições regionais** ou ficar **temporariamente sobrecarregados** (503). O script já faz **retry com backoff** e tenta **preview** quando aplicável.
 
 Referências:
-- [Image generation guide](https://ai.google.dev/gemini-api/docs/image-generation)
+- [Gemini Image generation guide](https://ai.google.dev/gemini-api/docs/image-generation)
 - [Generating Content v1beta](https://ai.google.dev/api/generate-content)
-
----
-
-## 📣 Uso em comunicação (LinkedIn)
-
-- Poste o diagrama **pictórico** e, no texto, explique:
-  - **Prompt Engineer (Gemini – texto)** → cria o prompt visual.
-  - **Image Generator (Gemini – imagem)** → gera e salva o PNG.
-- Inclua **métricas** (ex.: *PE ~10,5 s | IG ~1,6 s | 1 tentativa | PNG 1200×628 | logs em `saidas/crew_image.log`*).
 
 ---
 
@@ -160,7 +151,7 @@ Referências:
 - Saídas de imagem dos modelos Gemini incluem **SynthID watermark** para transparência/identificação.
 
 Referências:
-- [Gemini Image generation](https://ai.google.dev/gemini-api/docs/image-generation)
+- [Gemini Image generation guide](https://ai.google.dev/gemini-api/docs/image-generation)
 
 ---
 
